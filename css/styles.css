@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Start Nav bar     */
+.navbar {
+  padding-bottom: 0 0 3rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+/* End Nav bar     */
+
+/* Start Buttons */
+
+#btndownload {
+  margin: 5% 3% 4% 0;
+}
+
+/* End Buttons */
+
+/*start img  */
+
+#dog {
+  transform: rotate(20deg);
+  width: 60%;
+
+}
+
+/*end img  */
+
+/* Start Features  */
+
+#features {
+  padding: 6rem 4rem 3rem 4rem;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+#para {
+  color: #8f8f8f;
+}
+
+#head {
+  color: black;
+  font-size: 1.6rem;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+#icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+#icon:hover {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+/* End Features  */
+
+/* Start Testimonials */
+#testimonials {
+  padding: 8% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#test {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 6% 15%;
+}
+.testimonial-text {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+/* End Testimonials */
+
+/* Start Press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+#pr {
+  width: 15%;
+  margin: 10px 30px 70px;
+}
+/* End Press */
+
+/* Start pricing  */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 5px 10px;
+}
+/* End pricing  */
+
+/* Start CTA*/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5rem 8rem;
+}
+
+.h3{
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+
+}
+
+#btn{
+  margin-top: 1rem;
+  margin: 5% 3% 4% 0;
+}
+
+/* End CTA*/
+
+/* Start Footer*/
+
+#footer{
+  text-align: center; 
+  padding: 3rem;
+}
+#ico{
+  margin-bottom: 1rem;
+}
+
+/* End Footer*/
+
+
+/* Media */
+
+@media  (max-width: 1024px) {
+  
+  #title{
+    text-align: center;
+  }
+
+  #dog{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* EndMedia */
